@@ -67,14 +67,15 @@ export default function Header() {
         className="flex flex-col md:flex-row items-center justify-between px-10 py-20"
       >
         {/* Text */}
-        <div className="max-w-lg">
+        <div className="max-w-3xl">
            <h2 className="text-4xl md:text-5xl font-extrabold leading-tight">
-            HI, I'M <span className="text-accent">SEN SOVISAL</span>.<br /> <span>A
-            CREATIVE</span> <br /> <span className="text-accent">FRONT-END DEVELOPER</span>
+            HI, I'M <span className="text-accent">SEN SOVISAL</span>.
+            <br />
+            <span className="text-accent">FRONT-END DEVELOPER</span>
             <br />
             BASED IN <span className="line-through">CAMBODIA</span>
           </h2>
-          <p className="mt-4 text-lg text-gray-700">
+          <p className="mt-4 text-lg text-pl dark:text-pk">
             DESIGN ✦ DEVELOPMENT ✦ WEBFLOW
           </p>
 

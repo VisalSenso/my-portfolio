@@ -5,8 +5,8 @@
 /* Custom variables for easy color/font management */
 @theme {
   --color-*: initial;
-  --color-light: #fff;
-  --color-dark: #000;
+  --color-pl: #364153 ;
+  --color-pk: #99a1af;
   --color-main-text: #000000;
   --color-accent: #ef4444;
   --font-sans: 'Inter', 'Helvetica', 'Arial', sans-serif;
