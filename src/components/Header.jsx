@@ -68,9 +68,9 @@ export default function Header() {
       >
         {/* Text */}
         <div className="max-w-lg">
-          <h2 className="text-4xl md:text-5xl font-extrabold leading-tight">
-            HI, I’M <span className="text-accent">[SEN SOVISAL]</span>.<br />A
-            CREATIVE <span className="text-accent">FRONT-END DEVELOPER</span>
+           <h2 className="text-4xl md:text-5xl font-extrabold leading-tight">
+            HI, I'M <span className="text-accent">SEN SOVISAL</span>.<br /> <span>A
+            CREATIVE</span> <br /> <span className="text-accent">FRONT-END DEVELOPER</span>
             <br />
             BASED IN <span className="line-through">CAMBODIA</span>
           </h2>
@@ -78,10 +78,10 @@ export default function Header() {
             DESIGN ✦ DEVELOPMENT ✦ WEBFLOW
           </p>
 
-          <div className="mt-6 flex gap-4">
+          <div className="mt-6 flex justify-center gap-4">
             <a
               href="#projects"
-              className="bg-black dark:bg-white text-white dark:text-black  px-5 py-3 rounded hover:bg-white hover:border-black hover:border hover:text-black transition"
+              className="bg-black dark:bg-white text-white dark:text-black  px-5 py-3 rounded hover:bg-white border-black border hover:text-black transition"
             >
               Got a project?
             </a>
