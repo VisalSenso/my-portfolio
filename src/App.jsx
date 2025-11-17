@@ -10,9 +10,16 @@ function App() {
     <Router>
       <div>
         <Header />
+<<<<<<< HEAD
 
         <Routes>
           <Route path="/" element={<Home/>} />
+=======
+        
+        <Routes>
+          <Route path="/" element={<Home />} />
+          
+>>>>>>> 47b1312de6cc9f2d36cde602b09e55f1d53c1f29
         </Routes>
         <Footer />
       </div>

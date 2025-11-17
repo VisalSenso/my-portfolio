@@ -1,10 +1,13 @@
 @import "tailwindcss";
 
+<<<<<<< HEAD
 /* Smooth scrolling for anchor navigation */
 html {
   scroll-behavior: smooth;
 }
 
+=======
+>>>>>>> 47b1312de6cc9f2d36cde602b09e55f1d53c1f29
 @custom-variant dark (&:where(.dark, .dark *));
 @custom-variant light (&:where(.light, .light*));
 /* Custom variables for easy color/font management */

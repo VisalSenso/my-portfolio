@@ -1,4 +1,5 @@
 import React, { useState, useCallback, useEffect } from "react";
+<<<<<<< HEAD
 // use anchor links for same-page scrolling
 import DarkMode from "./DarkMode.jsx";
 import mypic from "../assets/images/mypic.png";
@@ -12,6 +13,11 @@ export default function Header() {
     });
   }, []);
 
+=======
+import DarkMode from "./DarkMode.jsx";
+import mypic from "../assets/images/mypic.png";
+export default function Header() {
+>>>>>>> 47b1312de6cc9f2d36cde602b09e55f1d53c1f29
   const [isDarkMode, setIsDarkMode] = useState(
     localStorage.getItem("theme") === "dark"
   );
@@ -31,6 +37,7 @@ export default function Header() {
       document.body.classList.remove("dark");
     }
   }, [isDarkMode]);
+<<<<<<< HEAD
 
   const [showNav, setShowNav] = useState(true);
   const [lastScroll, setLastScroll] = useState(0);
@@ -85,6 +92,38 @@ export default function Header() {
 
         {/* Right Buttons (Desktop Only) */}
         <div className="hidden md:flex items-center gap-4">
+=======
+  return (
+    <div className="font-sans">
+      {/* Navbar */}
+      <header className="flex justify-between items-center ">
+        <h1 className="text-xl font-bold">Me</h1>
+        <nav>
+          <ul className="flex gap-8 ">
+            <li>
+              <a href="#home" className="hover:text-accent">
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="#about" className="hover:text-accent">
+                About
+              </a>
+            </li>
+            <li>
+              <a href="#works" className="hover:text-accent">
+                Works
+              </a>
+            </li>
+            <li>
+              <a href="#contact" className="hover:text-accent">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div className="flex items-center gap-4">
+>>>>>>> 47b1312de6cc9f2d36cde602b09e55f1d53c1f29
           <a
             href="#contact"
             className="border border-black dark:border-white px-4 py-2 rounded hover:bg-black hover:text-white transition"
@@ -93,6 +132,7 @@ export default function Header() {
           </a>
           <DarkMode toggleDarkMode={toggleDarkMode} isDarkMode={isDarkMode} />
         </div>
+<<<<<<< HEAD
 
         {/* Hamburger Button (Mobile Only) */}
         {/* Hamburger Button (Mobile Only) */}
@@ -117,6 +157,10 @@ export default function Header() {
       </header>
 
 
+=======
+      </header>
+
+>>>>>>> 47b1312de6cc9f2d36cde602b09e55f1d53c1f29
       {/* Hero Section */}
       <section
         id="home"
@@ -124,13 +168,18 @@ export default function Header() {
       >
         {/* Text */}
         <div className="max-w-3xl">
+<<<<<<< HEAD
           <h2 className="text-4xl md:text-5xl font-extrabold leading-tight">
+=======
+           <h2 className="text-4xl md:text-5xl font-extrabold leading-tight">
+>>>>>>> 47b1312de6cc9f2d36cde602b09e55f1d53c1f29
             HI, I'M <span className="text-accent">SEN SOVISAL</span>.
             <br />
             <span className="text-accent">FRONT-END DEVELOPER</span>
             <br />
             BASED IN <span className="line-through">CAMBODIA</span>
           </h2>
+<<<<<<< HEAD
           <p className="mt-4 text-lg">
             DESIGN ✦ DEVELOPMENT ✦ WEBFLOW
           </p>
@@ -142,14 +191,30 @@ export default function Header() {
 
               href="#projects"
               className="bg-black dark:bg-white text-white dark:text-black  px-5 py-3 rounded hover:bg-white border-black border dark:hover:bg-black dark:hover:text-white dark:hover:border-white hover:text-black transition"
+=======
+          <p className="mt-4 text-lg text-pl dark:text-pk">
+            DESIGN ✦ DEVELOPMENT ✦ WEBFLOW
+          </p>
+
+          <div className="mt-6 flex justify-center gap-4">
+            <a
+              href="#projects"
+              className="bg-black dark:bg-white text-white dark:text-black  px-5 py-3 rounded hover:bg-white border-black border hover:text-black transition"
+>>>>>>> 47b1312de6cc9f2d36cde602b09e55f1d53c1f29
             >
               Got a project?
             </a>
             <a
               href="#contact"
+<<<<<<< HEAD
               className=" text-black dark:text-white dark:hover:text-black dark:hover:bg-white border border-black dark:border-white px-5 py-3 rounded hover:bg-black hover:text-white transition"
             >
               Let's talk
+=======
+              className="border border-black dark:border-white px-5 py-3 rounded hover:bg-black hover:text-white transition"
+            >
+              Let’s talk
+>>>>>>> 47b1312de6cc9f2d36cde602b09e55f1d53c1f29
             </a>
           </div>
         </div>
@@ -157,13 +222,17 @@ export default function Header() {
         {/* Image */}
         <div className="mt-10 md:mt-0 md:ml-10">
           <img
+<<<<<<< HEAD
             data-aos="fade-left"
+=======
+>>>>>>> 47b1312de6cc9f2d36cde602b09e55f1d53c1f29
             src={mypic}
             alt="Profile"
             className="w-80 rounded-lg shadow-lg"
           />
         </div>
       </section>
+<<<<<<< HEAD
 
       {/* Mobile Menu */}
       <div
@@ -200,6 +269,8 @@ export default function Header() {
       </div>
 
 
+=======
+>>>>>>> 47b1312de6cc9f2d36cde602b09e55f1d53c1f29
     </div>
   );
 }
