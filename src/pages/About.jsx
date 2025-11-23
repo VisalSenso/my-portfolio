@@ -20,7 +20,7 @@ const About = () => {
     { name: "Tailwind", icon: <SiTailwindcss className="text-sky-400" />, percent: 80 },
   ];
   return (
-    <section id="about" className="mt-20 px-8 md:px-20 py-24">
+    <section id="about" className="mt-24 px-8 md:px-20 py-24">
       {/* About Section */}
       <div className="max-w-5xl mx-auto text-center">
         <h2

@@ -1,28 +1,24 @@
 import React from "react";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
+import vdownload from "../assets/images/vdownload.png";
+import portfolio from "../assets/images/portfolio.png";
 
 const projects = [
   {
     title: "My Portfolio Website",
     description: "A modern responsive portfolio built with React and Tailwind CSS.",
-    image: "/images/portfolio.png",
-    github: "https://github.com/yourname/portfolio",
-    demo: "https://yourportfolio.com",
+    image: portfolio, 
+    github: "https://github.com/VisalSenso/my-portfolio",
+    demo: "https://sensovisalportfolio.netlify.app/",
   },
   {
-    title: "Online Shop (PHP + MySQL)",
-    description: "An e-commerce website with admin panel, product management and cart.",
-    image: "/images/shop.png",
-    github: "https://github.com/yourname/shop",
-    demo: "#",
+    title: "Video Downloader (React js Node js and Tailwind CSS)",
+    description: "Enter a video or playlist URL to fetch available formats and download options. Supports YouTube, Facebook, Instagram Tik Tok and X (Twitter).",
+    image: vdownload,
+    github: "https://github.com/VisalSenso/videold-frontend",
+    demo: "https://videodl.netlify.app/",
   },
-  {
-    title: "School Website (React + PHP)",
-    description: "A bilingual school website with admin panel and content editing.",
-    image: "/images/school.png",
-    github: "https://github.com/yourname/school",
-    demo: "#",
-  },
+  
 ];
 
 const Projects = () => {
