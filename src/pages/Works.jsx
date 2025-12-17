@@ -64,11 +64,16 @@ const Works = () => {
                         </p>
 
                         {/* Responsibilities */}
-                        <ul className="list-disc list-inside space-y-1 mb-4">
+                        {/* Responsibilities */}
+                        <ul className="flex flex-col gap-2 mb-4">
                             {work.responsibilities.map((item, i) => (
-                                <li key={i}>{item}</li>
+                                <li key={i} className="flex items-start gap-2">
+                                    <span className="mt-1 text-accent">•</span> {/* small dot icon */}
+                                    <span className="leading-snug">{item}</span>
+                                </li>
                             ))}
                         </ul>
+
 
                         {/* Tech stack */}
                         <div className="flex flex-wrap gap-2">
